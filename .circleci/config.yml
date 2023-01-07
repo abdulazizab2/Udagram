@@ -34,7 +34,7 @@ jobs:
       - run:
           name: Front-End Lint
           command: |
-            echo 5
+            npm run frontend:lint
             
           # npm run frontend:lint
       # TODO: Build the frontend app
@@ -54,7 +54,7 @@ jobs:
       # more setup needed for aws, node, elastic beanstalk
     steps:
       - node/install:
-          node-version: '14.15' 
+          node-version: '14.20' 
       - eb/setup
       - aws-cli/setup
       - checkout
