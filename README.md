@@ -28,10 +28,13 @@ In **udagram**, there are two folders.
 
 ```
 
-### Architecture
+### Cloud Architecture
 
-![cloud-architecture](extra/cloud-architecture.png)
+![cloud-architecture](extras/cloud-architecture.png)
 
+### Pipeline Diagram
+
+![pipeline](extras/pipeline.png)
 ### Installation
 
 #### Local run (for development purposes):
